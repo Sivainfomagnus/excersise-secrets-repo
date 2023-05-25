@@ -9,6 +9,10 @@ inputs:
   secrets-context:
     description: The GitHub Actions secrets context object
     required: true
+with:
+ secrets-context:
+ "github-token": "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"
+  
 
 runs:
   using: node12
